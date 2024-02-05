@@ -13,6 +13,11 @@ p {
   margin-top: 20px;
 }
 
+h2 {
+  padding: 20px 10px 20px 20px;
+  color: hsl(25, 47%, 15%);
+}
+
 h4 {
  margin-top: 14px;
  margin-left: -68px;
@@ -23,7 +28,7 @@ h4 {
 
 .card {
   display: flex;
-  width: 380px;
+  width: 400px;
   height: 82px;
 
   background-color: hsl(10, 79%, 65%);
@@ -40,6 +45,27 @@ h4 {
 
 .img {
   width: 60px;
-  margin-left: 200px;
+  margin-left: 220px;
 }
 
+.container {
+  width: 400px;
+  height: 400px;
+
+  background-color:   hsl(33, 100%, 98%);
+  margin: auto;
+  margin-top: 7px;
+  border-radius: 12px;
+}
+
+.card-days {
+  display: flex;
+  margin-top: 160px;
+  padding: 2px;
+}
+
+.textoo {
+  color: blueviolet;
+  font-size: 19px;
+  margin-top: -5px;
+}
