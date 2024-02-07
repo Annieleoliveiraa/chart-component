@@ -26,6 +26,11 @@ h4 {
  line-height: 80px;
 }
 
+hr {
+  width: 360px;
+  color: hsl(28, 10%, 53%);
+}
+
 .card {
   display: flex;
   width: 400px;
@@ -61,7 +66,7 @@ h4 {
 .card-days {
   display: flex;
   margin-top: 160px;
-  padding: 2px;
+  padding: 12px;
 }
 
 .textoo {
