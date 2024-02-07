@@ -21,7 +21,7 @@ h2 {
 h4 {
  margin-top: 14px;
  margin-left: -68px;
- font-size: 20px;
+ font-size: 24px;
  color: hsl(33, 100%, 98%);
  line-height: 80px;
 }
@@ -50,7 +50,7 @@ h4 {
 
 .container {
   width: 400px;
-  height: 400px;
+  height: 420px;
 
   background-color:   hsl(33, 100%, 98%);
   margin: auto;
@@ -65,7 +65,48 @@ h4 {
 }
 
 .textoo {
-  color: blueviolet;
+  color:  hsl(28, 10%, 53%);
   font-size: 19px;
   margin-top: -5px;
+  text-align: start;
 }
+
+.container-info {
+ display: flex;
+ flex-direction: column;
+ margin-top: 28px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+ align-items: flex-end;
+ padding: 0 20px;
+ margin-top: -70px;
+}
+
+.text-info {
+  color:  hsl(28, 10%, 53%);
+  font-size: 15px;
+  padding-left: 6px;
+}
+
+.number {
+  font-size: 34px;
+  color: hsl(25, 47%, 15%);
+  font-weight: bolder;
+  margin-top: 3px;
+}
+
+.text1 {
+ color: hsl(25, 47%, 15%);
+ font-weight: bolder;
+ font-size: 16px;
+}
+
+.text2 {
+  color: hsl(28, 10%, 53%);
+  font-size: 15px;
+  margin-top: 2px;
+}
+
