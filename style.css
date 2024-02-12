@@ -27,19 +27,21 @@ h4 {
 }
 
 hr {
-  width: 360px;
+  width: 400px;
   color: hsl(28, 10%, 53%);
+
+  margin-top: 25px;
 }
 
 .card {
   display: flex;
-  width: 400px;
+  width: 450px;
   height: 82px;
 
   background-color: hsl(10, 79%, 65%);
 
   margin: auto;
-  margin-top: 20px;
+  margin-top: 15px;
   border-radius: 12px;
 }
 
@@ -50,16 +52,16 @@ hr {
 
 .img {
   width: 60px;
-  margin-left: 220px;
+  margin-left: 250px;
 }
 
 .container {
-  width: 400px;
-  height: 420px;
+  width: 450px;
+  height: 490px;
 
   background-color:   hsl(33, 100%, 98%);
   margin: auto;
-  margin-top: -5px;
+  margin-top: -8px;
   border-radius: 12px;
 }
 
@@ -67,13 +69,114 @@ hr {
   display: flex;
   margin-top: 160px;
   padding: 12px;
+  gap: 12px;
 }
 
-.textoo {
+.box-monday button {
+  width: 50px;
+  height: 48px;
+  transform: translateY(22%);
+}
+
+.box-tuesday button {
+  width: 50px;
+  height: 100px;
+  transform: translateY(-50%);
+}
+
+.box-wednesday button {
+  background-color: hsl(186, 34%, 60%);
+  height: 160px;
+  transform: translateY(-70%);
+}
+
+.box-thrusday button {
+  height: 100px;
+  transform: translateY(-50%);
+}
+
+.box-friday button {
+  height: 70px;
+  transform: translateY(-26%);
+}
+
+.box-saturday button {
+  height: 120px;
+  transform: translateY(-55%);
+}
+
+.box-sunday button {
+  height: 60px;
+  transform: translateY(-10%);
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+}
+
+.texto-mon {
   color:  hsl(28, 10%, 53%);
   font-size: 19px;
-  margin-top: -5px;
-  text-align: start;
+  margin-top: -50px;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.texto-tue {
+  color:  hsl(28, 10%, 53%);
+  font-size: 19px;
+  margin-top: -50px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.texto-wed {
+  color:  hsl(28, 10%, 53%);
+  font-size: 19px;
+  margin-top: -110px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.texto-thu {
+  color:  hsl(28, 10%, 53%);
+  font-size: 19px;
+  margin-top: 2px;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: -48px;
+}
+
+.texto-fri {
+  color:  hsl(28, 10%, 53%);
+  font-size: 19px;
+  margin-top: 2px;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: -16px;
+}
+
+.texto-sat {
+  color:  hsl(28, 10%, 53%);
+  font-size: 19px;
+  margin-top: 2px;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: -64px;
+}
+
+.texto-sun {
+  color:  hsl(28, 10%, 53%);
+  font-size: 19px;
+  margin-top: 2px;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: -4px;
 }
 
 .container-info {
