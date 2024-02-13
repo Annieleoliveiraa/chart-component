@@ -220,5 +220,61 @@ button {
 
 
 @media screen and (max-width: 375px) {
-  
+  .card {
+    width: 360px;
+    height: 100px;
+    margin-top: 65px;
+  }
+
+  .card-imagem {
+    margin-left: -65px;
+  }
+
+  .container {
+    width: 360px;
+    margin-top: 5px;
+   
+  }
+
+  h4 {
+    margin-top: 22px;
+  }
+
+  hr {
+    width: 310px;
+  }
+
+  .card-days {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .box-monday button {
+    width: 40px;
+  }
+
+  .box-tuesday button {
+    width: 40px;
+  }
+
+  .box-wednesday button {
+    width: 40px;
+  }
+
+  .box-thrusday button {
+    width: 40px;
+  }
+
+  .box-friday button {
+    width: 40px;
+  }
+
+  .box-saturday button {
+    width: 40px;
+  }
+
+  .box-sunday button {
+    width: 40px;
+  }
 }
