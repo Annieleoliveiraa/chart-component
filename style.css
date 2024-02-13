@@ -19,8 +19,8 @@ h2 {
 }
 
 h4 {
+ margin-left: -72px;
  margin-top: 14px;
- margin-left: -68px;
  font-size: 24px;
  color: hsl(33, 100%, 98%);
  line-height: 80px;
@@ -57,7 +57,7 @@ hr {
 
 .container {
   width: 450px;
-  height: 490px;
+  height: 480px;
 
   background-color:   hsl(33, 100%, 98%);
   margin: auto;
@@ -182,7 +182,7 @@ button {
 .container-info {
  display: flex;
  flex-direction: column;
- margin-top: 28px;
+ margin-top: 8px;
 }
 
 .card-info {
@@ -218,3 +218,7 @@ button {
   margin-top: 2px;
 }
 
+
+@media screen and (max-width: 375px) {
+  
+}
